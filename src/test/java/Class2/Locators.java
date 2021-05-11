@@ -18,7 +18,7 @@ public class Locators {
      *
      *
      *
-     * Address
+     * Address/Locator
      * 1. id (unique)       --> By locatorUsingId = By.id("idValue")
      * 2. name              --> By locatorUsingName = By.name("nameValue");
      *      In chropath, check if name is unique: //*[@name='value']
@@ -28,6 +28,7 @@ public class Locators {
      *      In chropath, check if a has unique text: //a[text()='text value']
      * 5. partialLinkText   --> By locatorUsingPartialLinkText = By.partialLinkText("partial text with link")
      *      In chropath, check if a has unique partial text: //a[contains(text(),'partial text value')]
+     * ..... check Class3/Locators_2.java
      *
      */
 

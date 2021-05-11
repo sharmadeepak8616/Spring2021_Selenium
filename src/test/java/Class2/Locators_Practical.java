@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class Locators_Practical {
     @Test
     public void practical() {
-        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
@@ -20,6 +20,27 @@ public class Locators_Practical {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        /**
+         * To find a webElement
+         * Method: findElement()
+         * Input: Locator (By datatype)
+         * Output:
+         *      if the element is found, WebElement will be returned
+         *      else NoSuchElement Exception
+         */
+
+        /**
+         * To type on the webElement
+         * Method: sendKeys()
+         * Input: data that we want to type on webElement
+         */
+
+        /**
+         * To click on the webElement
+         * Method: click()
+         *
+         */
 
         // enter email as abcd@test.com
         String emailId = "email";
